@@ -28,7 +28,11 @@ HTMLWidgets.widget({
                 x: "categories",
                 value: keys,
               },
-              type : 'bar'
+              type : 'bar',
+              colors : {
+                'female' : '#104e8b',
+                'male'   : '#cd8500'
+              }
           },
           legend: {
             position: x.legendPosition
