@@ -11,7 +11,7 @@ C3Bar <-   function(dataset,
                     legendPadding = 20,
                     legendTileWidth = 10,
                     legendTileHeight = 10,
-                    chartPaddingBottom,
+                    chartPaddingBottom = 10,
                     width = NULL, height = NULL) {
 
   # forward options using x
