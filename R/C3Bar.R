@@ -7,12 +7,14 @@
 #' @export
 C3Bar <-   function(dataset,
                     legendPosition = "bottom",
+                    groupedToolTip = FALSE,
                     width = NULL, height = NULL) {
 
   # forward options using x
   x = list(
     dataset = dataset,
-    legendPosition = legendPosition
+    legendPosition = legendPosition,
+    groupedToolTip = groupedToolTip
   )
 
   # create widget

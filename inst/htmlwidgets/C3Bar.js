@@ -34,7 +34,7 @@ HTMLWidgets.widget({
             position: x.legendPosition
            },
            tooltip: {
-             grouped: false
+             grouped: x.groupedToolTip
            },
            axis: {
              x: {
