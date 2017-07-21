@@ -20,6 +20,9 @@ HTMLWidgets.widget({
 
           // create a pie chart, see htp:////c3js.org/samples/chart_pie.html
           chart = c3.generate({
+            padding: {
+              bottom: x.chartPaddingBottom
+            },
             bindto: el,
             data: {
               json : [],

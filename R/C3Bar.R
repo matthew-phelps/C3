@@ -9,8 +9,9 @@ C3Bar <-   function(dataset,
                     legendPosition = "bottom",
                     groupedToolTip = FALSE,
                     legendPadding = 20,
-                    legendTileWidth = 5,
-                    legendTileHeight = 5,
+                    legendTileWidth = 10,
+                    legendTileHeight = 10,
+                    chartPaddingBottom,
                     width = NULL, height = NULL) {
 
   # forward options using x
@@ -20,7 +21,8 @@ C3Bar <-   function(dataset,
     groupedToolTip = groupedToolTip,
     legendPadding = legendPadding,
     legendTileWidth = legendTileWidth,
-    legendTileHeight = legendTileHeight
+    legendTileHeight = legendTileHeight,
+    chartPaddingBottom = chartPaddingBottom
   )
 
   # create widget
