@@ -35,7 +35,15 @@ HTMLWidgets.widget({
               }
           },
           legend: {
-            position: x.legendPosition
+            position: x.legendPosition,
+            padding: x.legendPadding,
+              item: {
+                // define custom height and width for the legend item tile
+                tile: {
+                  width: x.legendTileWidth,
+                  height: x.legendTileHeight
+                }
+              }
            },
            tooltip: {
              grouped: x.groupedToolTip
