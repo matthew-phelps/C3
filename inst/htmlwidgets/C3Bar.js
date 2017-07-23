@@ -76,11 +76,26 @@ HTMLWidgets.widget({
             // unload data the we don't want
             unload: diff
         });
-
-        // resize chart
-        // chart.flush();
-
       }
+
+
+
+      resize: function(width, height) {
+        var w = el.getBoundingClientRect().width;
+        var h = el.getBoundingClientRect().height;
+
+        // code to re-render the widget with a new size
+        chart.resize({
+          height: h,
+          width: w
+        })
+
+        }
+
+
+
+
+
 
     };
   }
