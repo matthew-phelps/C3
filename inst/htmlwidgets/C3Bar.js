@@ -65,6 +65,8 @@ HTMLWidgets.widget({
         var new_keys = _.keys(x.dataset);
         var diff     = _.difference(old_keys, new_keys);
 
+        // resize chart
+        chart.resize();
 
         // load the new data (stored in x.values)
         chart.load({
@@ -74,7 +76,8 @@ HTMLWidgets.widget({
             // unload data the we don't want
             unload: diff
         });
-        chart.resize();
+
+
       }
 
     };
