@@ -76,7 +76,7 @@ HTMLWidgets.widget({
             // unload data the we don't want
             unload: diff
         });
-      }
+      },
 
 
 
@@ -88,7 +88,7 @@ HTMLWidgets.widget({
         chart.resize({
           height: h,
           width: w
-        })
+        });
 
         }
 
