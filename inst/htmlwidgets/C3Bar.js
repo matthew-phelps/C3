@@ -66,7 +66,7 @@ HTMLWidgets.widget({
         var diff     = _.difference(old_keys, new_keys);
 
         // resize chart
-        //chart.resize();
+        chart.flush();
 
         // load the new data (stored in x.values)
         chart.load({
