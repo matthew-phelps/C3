@@ -79,6 +79,11 @@ HTMLWidgets.widget({
       },
 
 
+      // This code comes from:
+      // https://github.com/mrjoh3/c3/blob/master/inst/htmlwidgets/c3.js
+
+      // I don't yet understand what's going on here any why can't just use chart.resize
+      // and why this has to be outside the renderValue function.s
 
       resize: function(width, height) {
         var w = el.getBoundingClientRect().width;
