@@ -78,7 +78,7 @@ HTMLWidgets.widget({
         });
 
         // resize chart
-        chart.flush();
+        // chart.flush();
 
       }
 
